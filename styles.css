@@ -95,7 +95,6 @@ h3{font-size:16px;font-weight:700;margin:0 0 6px}
 .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;background:var(--green)}
 .toast{position:absolute;left:16px;right:16px;bottom:96px;background:#17171C;color:#fff;padding:13px 15px;border-radius:16px;font-size:14px;z-index:50;box-shadow:var(--shadow)}
 .toast.hidden{display:none}
-.side-note{max-width:360px;color:#ddd} .side-note h1{color:#fff;text-align:left} .side-note code{background:#222;padding:2px 6px;border-radius:6px} .side-note button{margin-top:12px;padding:10px 14px;border-radius:12px;border:0;cursor:pointer;font-weight:700}
 .streak{display:flex;gap:8px} .streak .card{flex:1;text-align:center}
 .emoji-row{display:flex;gap:6px;margin-top:10px} .emoji-row button{border:0;background:#fff;border-radius:14px;padding:10px;cursor:pointer;flex:1;box-shadow:var(--shadow-sm);color:var(--faint)} .emoji-row button.sel{background:#EFEFFF;color:var(--primary)} .emoji-row .lucide{width:22px;height:22px}
 .disclaimer{background:rgba(255,255,255,.7);border-radius:14px;padding:11px 12px;font-size:12px;color:var(--muted);margin-top:12px;line-height:1.5}
@@ -154,4 +153,4 @@ input,select,textarea{width:100%;padding:14px 16px;border-radius:var(--r-md);bor
 .pimg{width:100%;height:150px;object-fit:cover;border-radius:16px;background:#EFEFFF;display:block}
 .pthumb{width:56px;height:68px;border-radius:12px;object-fit:cover;background:#EFEFFF;flex-shrink:0}
 .ptwo{display:grid;grid-template-columns:1fr 1fr;gap:10px} .pcard2{background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-sm);cursor:pointer} .pcard2 .pad{padding:10px 12px 12px}
-@media(max-width:900px){.side-note{display:none}.phone{border:0;border-radius:0;height:100vh;min-height:100vh;width:100%}.tabbar{left:8px;right:8px}}
+@media(max-width:900px){.phone{border:0;border-radius:0;height:100vh;min-height:100vh;width:100%}.tabbar{left:8px;right:8px}}
